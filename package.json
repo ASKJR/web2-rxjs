@@ -1,0 +1,19 @@
+{
+  "name": "web2-rxjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc -p tsconfig.json && node index.js"
+  },
+  "type": "module",
+  "author": "Alberto Kato",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  }
+}
